@@ -1,0 +1,202 @@
+{
+  "commonDocuments": [
+    { "key": "company-registration", "title": "Company Registration", "detail": "Certificate of incorporation, GST registration, IEC (Importer-Exporter Code) and the legal address of the manufacturer and every production site." },
+    { "key": "product-datasheets", "title": "Product Datasheets", "detail": "Current datasheets for every model and size in scope: nominal sizes (DN), pressure ratings (PN/MOP), temperature range, media and intended application." },
+    { "key": "technical-drawings", "title": "Technical Drawings", "detail": "Dimensioned general-arrangement and sectional drawings with part lists, revision status and tolerances. All wetted parts must be identifiable." },
+    { "key": "material-specifications", "title": "Material Specifications", "detail": "Material designation (EN / ISO / ASTM) for every component, especially wetted metals, elastomers, plastics, coatings and lubricants, with supplier declarations." },
+    { "key": "quality-certificates", "title": "Quality Certificates", "detail": "ISO 9001 certificate and scope, quality manual, and mill test certificates (EN 10204 3.1) for raw materials." },
+    { "key": "test-reports", "title": "Existing Test Reports", "detail": "Previous type tests, hydrostatic and leak-tightness tests, endurance tests, and any approvals already held (e.g. WRAS, ACS, KIWA, NSF, BIS)." },
+    { "key": "process-documentation", "title": "Manufacturing Process Documentation", "detail": "Process flow chart, control plan, work instructions, and a list of critical processes such as casting, machining, welding, moulding and assembly." },
+    { "key": "product-images", "title": "Product Images", "detail": "High-resolution photos of each product type, nameplate and marking, packaging, and cut-away or exploded views where available." },
+    { "key": "inspection-records", "title": "Inspection Records", "detail": "Incoming, in-process and final inspection records, calibration status of measuring equipment, and non-conformity handling records." },
+    { "key": "factory-information", "title": "Factory Information", "detail": "Site address, layout, production capacity, key machinery, in-house test facilities, organisation chart and the contact person for audits." }
+  ],
+  "categories": [
+    {
+      "slug": "valves",
+      "name": "Valves",
+      "image": "/images/hero-valve.jpg",
+      "summary": "Gate, ball, butterfly, check and pressure-reducing valves for drinking water supply, building installations and gas distribution.",
+      "products": ["Gate valves", "Ball valves", "Butterfly valves", "Check / non-return valves", "Pressure-reducing valves", "Gas shut-off valves"],
+      "standards": [
+        { "code": "DIN EN 1074 (series)", "title": "Valves for water supply – fitness-for-purpose requirements and verification tests" },
+        { "code": "DIN EN 13828", "title": "Manually operated copper-alloy and stainless-steel ball valves for potable water in buildings" },
+        { "code": "DIN EN 1213", "title": "Copper-alloy stop valves for potable water in buildings" },
+        { "code": "DIN EN 12266-1", "title": "Industrial valves – pressure tests, test procedures and acceptance criteria" },
+        { "code": "DIN EN 331", "title": "Manually operated ball valves and closed-bottom taper plug valves for gas installations in buildings" },
+        { "code": "DIN EN 13774", "title": "Valves for gas distribution systems with maximum operating pressure up to 16 bar" },
+        { "code": "UBA evaluation criteria", "title": "German Environment Agency hygiene criteria for materials in contact with drinking water (organic materials and metals)" }
+      ],
+      "testFocus": ["Hydrostatic shell and seat tightness", "Operating torque and endurance cycles", "Flow characteristics", "Material hygiene of wetted parts (elastomers, coatings, lubricants)", "Marking and documentation"],
+      "extraDocuments": ["Torque and endurance test data", "Elastomer and coating compound certificates", "Actuator / gearbox specifications (if supplied)"],
+      "preparation": [
+        "Define the exact product range in scope: types, DN sizes and PN classes. Group them into product families for efficient type testing.",
+        "Compile a bill of materials for every wetted component and check each material against the UBA positive lists.",
+        "Freeze the design. Changes after test samples are sent usually trigger re-testing.",
+        "Run in-house pre-tests (shell, seat, torque) to the target EN standard before sending samples to an accredited laboratory.",
+        "Prepare product marking that meets the standard and leaves space for the certification mark."
+      ],
+      "mistakes": [
+        "Using elastomers or lubricants without drinking-water hygiene evidence. This is the most common reason samples fail.",
+        "Submitting drawings without revision control, or drawings that do not match the samples.",
+        "Grouping too many variants together, so the laboratory requests additional samples.",
+        "Underestimating the cycle-endurance tests, which can take several weeks."
+      ],
+      "timeline": "6–10 months"
+    },
+    {
+      "slug": "pipes",
+      "name": "Pipes",
+      "image": "/images/pipes.jpg",
+      "summary": "Polyethylene, PVC-U, ductile iron, steel, stainless-steel and multilayer composite pipes for water and gas networks and building installations.",
+      "products": ["PE 80 / PE 100 pressure pipes", "PVC-U pressure pipes", "Ductile iron pipes", "Steel and stainless-steel pipes", "Multilayer composite pipes"],
+      "standards": [
+        { "code": "DIN EN 12201-2", "title": "Polyethylene (PE) piping systems for water supply – pipes" },
+        { "code": "DIN EN 1555-2", "title": "Polyethylene (PE) piping systems for the supply of gaseous fuels – pipes" },
+        { "code": "DVGW GW 335-A2", "title": "Plastic piping systems in gas and water distribution – pipes made of PE 80 and PE 100" },
+        { "code": "DIN EN ISO 1452-2", "title": "PVC-U piping systems for water supply – pipes" },
+        { "code": "DIN EN 545 / DIN EN 969", "title": "Ductile iron pipes, fittings and accessories for water (EN 545) and gas (EN 969) pipelines" },
+        { "code": "DVGW GW 541", "title": "Stainless-steel pipes for gas and drinking water installations" },
+        { "code": "DVGW W 542", "title": "Composite pipes in drinking water installations" }
+      ],
+      "testFocus": ["Long-term hydrostatic strength", "Raw-material (compound) qualification", "Dimensional conformity", "Slow crack growth / resistance to point loads (PE)", "Hygiene of pipe material and linings"],
+      "extraDocuments": ["Compound / resin supplier approvals and data sheets", "Extrusion or casting process parameters", "Batch traceability and marking concept"],
+      "preparation": [
+        "Confirm that your resin or compound already holds the required hygiene and material approvals. Certified compounds shorten the process considerably.",
+        "Define the dimension series (SDR / pressure classes) and select representative sizes for type testing.",
+        "Set up batch traceability from raw material to the pipe marking.",
+        "Validate in-house release tests such as melt flow rate, dimensions and hydrostatic tests, with calibrated equipment.",
+        "Prepare the factory production control documentation for the initial inspection."
+      ],
+      "mistakes": [
+        "Switching resin suppliers during certification without notifying the certification body.",
+        "Marking that leaves out required information such as material, SDR, production date or batch.",
+        "Missing calibration records for the hydrostatic test rigs.",
+        "Underestimating long-term tests: some hydrostatic tests run for 1,000 hours or more."
+      ],
+      "timeline": "8–12 months"
+    },
+    {
+      "slug": "fittings",
+      "name": "Fittings",
+      "image": "/images/fittings.jpg",
+      "summary": "Press, compression, threaded and electrofusion fittings, and pipe connectors for drinking water and gas installations.",
+      "products": ["Press fittings (copper, stainless steel, multilayer)", "Brass compression and threaded fittings", "PE electrofusion and spigot fittings", "Transition and flange adaptors"],
+      "standards": [
+        { "code": "DVGW W 534", "title": "Pipe connectors and pipe joints in drinking water installations" },
+        { "code": "DIN EN 1254 (series)", "title": "Copper and copper-alloy plumbing fittings" },
+        { "code": "DIN EN 12201-3 / DIN EN 1555-3", "title": "PE piping systems for water / gas – fittings" },
+        { "code": "DVGW GW 335-B2", "title": "Plastic piping systems in gas and water distribution – fittings made of PE" },
+        { "code": "DVGW VP 614", "title": "Permanent press connections for metallic gas pipes (test specification)" },
+        { "code": "UBA metal evaluation basis", "title": "Approved metallic materials (for example certain brass alloys) for contact with drinking water" }
+      ],
+      "testFocus": ["Joint tightness under pressure and vacuum", "Pull-out resistance", "Temperature cycling", "Dezincification resistance (brass)", "Sealing element hygiene"],
+      "extraDocuments": ["System compatibility matrix (pipes, tools, press contours)", "Sealing-ring compound certificates", "Brass alloy composition analysis"],
+      "preparation": [
+        "Specify the complete jointing system: fitting, pipe type and pressing tool or contour. Approvals are often granted per system.",
+        "Check every brass alloy against the UBA list of approved metallic materials. Lead content is critical.",
+        "Prepare samples across the full size range for pull-out and temperature-cycling tests.",
+        "Document the installation instructions in German or English as required.",
+        "Align the product marking and traceability with the certification requirements."
+      ],
+      "mistakes": [
+        "Using brass alloys that are not on the UBA approved-materials list.",
+        "Testing fittings without defining the compatible pipe and tool system.",
+        "Missing dezincification test results for brass in water contact.",
+        "Incomplete installation instructions."
+      ],
+      "timeline": "6–9 months"
+    },
+    {
+      "slug": "pumps",
+      "name": "Pumps",
+      "image": "/images/pumps.jpg",
+      "summary": "Centrifugal, submersible, booster and circulation pumps that come into contact with drinking water in supply systems and buildings.",
+      "products": ["End-suction centrifugal pumps", "Submersible borehole pumps", "Pressure booster sets", "Drinking-water circulators"],
+      "standards": [
+        { "code": "UBA evaluation criteria", "title": "Hygiene requirements for all wetted materials: impellers, casings, seals, coatings" },
+        { "code": "DIN EN 809", "title": "Pumps and pump units for liquids – common safety requirements" },
+        { "code": "DIN EN ISO 9906", "title": "Rotodynamic pumps – hydraulic performance acceptance tests" },
+        { "code": "Regulation (EU) 547/2012", "title": "Ecodesign requirements for water pumps (minimum efficiency index)" },
+        { "code": "Machinery Regulation / CE", "title": "EU machinery safety and CE marking requirements, which apply in parallel" }
+      ],
+      "testFocus": ["Material hygiene of all wetted components", "Hydraulic performance verification", "Mechanical seal and elastomer suitability", "Coating evaluation (e.g. epoxy)", "Electrical and machinery safety (CE)"],
+      "extraDocuments": ["Performance curves and test-bench certificates", "Coating system approvals", "CE declaration of conformity and technical file"],
+      "preparation": [
+        "List every wetted material, including small parts such as O-rings, wear rings and lubricants.",
+        "Confirm that coatings and elastomers come from suppliers with drinking-water approvals.",
+        "Align hydraulic test data with ISO 9906 acceptance grades.",
+        "Prepare the CE technical file in parallel. German customers expect both.",
+        "Identify a representative pump size for each hydraulic family."
+      ],
+      "mistakes": [
+        "Overlooking minor wetted components such as gaskets and lubricants in the hygiene assessment.",
+        "Coatings applied by sub-contractors without documented process control.",
+        "Performance curves that are not backed by calibrated test-bench data.",
+        "Treating DVGW and CE as interchangeable. They cover different requirements."
+      ],
+      "timeline": "6–10 months"
+    },
+    {
+      "slug": "water-meters",
+      "name": "Water Meters",
+      "image": "/images/water-meter.jpg",
+      "summary": "Mechanical and static (ultrasonic or electromagnetic) cold-water meters for utility billing and sub-metering.",
+      "products": ["Single-jet and multi-jet meters", "Woltmann meters", "Ultrasonic static meters", "Electromagnetic meters", "Meter connection fittings"],
+      "standards": [
+        { "code": "Directive 2014/32/EU (MID), Annex MI-001", "title": "Measuring Instruments Directive – metrological conformity of water meters" },
+        { "code": "DIN EN ISO 4064 (series)", "title": "Water meters for cold potable water and hot water" },
+        { "code": "DVGW W 406", "title": "Volume and flow meters in water supply – selection, sizing and installation" },
+        { "code": "UBA evaluation criteria", "title": "Hygiene of wetted meter materials" },
+        { "code": "MessEG / MessEV", "title": "German Measurement and Verification Act and Ordinance (national implementation)" }
+      ],
+      "testFocus": ["Metrological accuracy across the flow range (Q1–Q4)", "Pressure loss and durability", "Hygiene of wetted materials", "Environmental and EMC tests (static meters)", "Software and data-interface verification"],
+      "extraDocuments": ["MID type-examination certificate (Module B) or plan for obtaining it", "Accuracy test protocols", "Firmware / software description (static meters)"],
+      "preparation": [
+        "Clarify the regulatory route: MID conformity (through a notified body) is mandatory, while DVGW certification adds hygiene and suitability evidence that German utilities expect.",
+        "Prepare metrological test data across the full flow range.",
+        "Document the wetted materials, including the register, measuring chamber and seals.",
+        "For static meters, prepare software and EMC documentation early.",
+        "Plan the quality-system module (Module D or F) alongside product testing."
+      ],
+      "mistakes": [
+        "Assuming DVGW certification replaces MID approval. It does not.",
+        "Insufficient durability test data.",
+        "Missing documentation of software versions for static meters.",
+        "Late involvement of the notified body."
+      ],
+      "timeline": "8–14 months"
+    },
+    {
+      "slug": "water-treatment",
+      "name": "Water Treatment Equipment",
+      "image": "/images/water-treatment.jpg",
+      "summary": "Point-of-entry filters, softeners, scale-prevention devices, UV disinfection and membrane systems for drinking water.",
+      "products": ["Mechanical filters", "Ion-exchange water softeners", "Scale-prevention devices", "UV disinfection systems", "Membrane / RO systems"],
+      "standards": [
+        { "code": "DIN EN 13443-1", "title": "Mechanical filters for drinking water installations (80 µm to 150 µm)" },
+        { "code": "DIN EN 14743 / DIN 19636-100", "title": "Water softeners for drinking water installations" },
+        { "code": "DVGW W 512", "title": "Test procedure for assessing the effectiveness of scale-prevention devices" },
+        { "code": "DVGW W 294 (series)", "title": "UV devices for disinfection in water supply" },
+        { "code": "DIN EN 1717", "title": "Protection against pollution of potable water and requirements for backflow-prevention devices" },
+        { "code": "UBA evaluation criteria", "title": "Hygiene of materials, resins and media in contact with drinking water" }
+      ],
+      "testFocus": ["Performance and effectiveness (filtration, softening capacity, UV dose)", "Microbiological safety", "Pressure resistance and tightness", "Backflow protection", "Hygiene of resins, membranes and housings"],
+      "extraDocuments": ["Process and P&ID diagrams", "Media / resin / membrane supplier approvals", "Operating and maintenance manual"],
+      "preparation": [
+        "Define the claimed performance precisely. Testing verifies exactly what you claim.",
+        "Collect approvals for all treatment media, resins and membranes.",
+        "Document regeneration, disinfection and maintenance procedures.",
+        "Verify the backflow-protection concept against EN 1717.",
+        "Prepare German-language operating instructions for the end user."
+      ],
+      "mistakes": [
+        "Making performance claims that are not supported by test data.",
+        "Using treatment media without drinking-water approvals.",
+        "Neglecting microbiological growth risks in stagnation zones.",
+        "Incomplete maintenance instructions."
+      ],
+      "timeline": "8–12 months"
+    }
+  ]
+}

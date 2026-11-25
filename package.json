@@ -1,0 +1,16 @@
+{
+  "name": "esc-dvgw-certification",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ESC Utility Services – DVGW Certification & German Market Access website and client portal",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "npm run dev -w backend & npm run dev -w frontend",
+    "dev:api": "npm run dev -w backend",
+    "dev:web": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "start": "npm run start -w backend",
+    "db:migrate": "npm run migrate -w backend",
+    "db:seed": "npm run seed -w backend"
+  }
+}

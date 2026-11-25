@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "what-is-dvgw-certification",
+    "type": "DVGW Article",
+    "title": "What is DVGW certification? A guide for Indian manufacturers",
+    "summary": "What DVGW is, why German buyers ask for it and how the certification works, in plain language.",
+    "date": "2026-11-10",
+    "readMinutes": 7,
+    "tags": ["DVGW", "basics", "Germany"],
+    "body": [
+      { "p": "If you have spoken to a German utility, wholesaler or OEM about supplying valves, pipes, fittings or meters, you have almost certainly been asked: \"Is it DVGW certified?\" This article explains what that question means." },
+      { "h": "Who is DVGW?" },
+      { "p": "DVGW (Deutscher Verein des Gas- und Wasserfaches e.V.) is the German Technical and Scientific Association for Gas and Water. Founded in 1859, it writes the technical rules, the DVGW worksheets (Arbeitsblätter), that German gas and water utilities follow. Its certification body, DVGW CERT GmbH, certifies products against these rules and the related European standards." },
+      { "h": "Why does it matter commercially?" },
+      { "p": "German utilities and installers rely on the \"generally accepted rules of technology\". A DVGW certificate is the most widely recognised evidence that a product meets them. Without it, many tenders and distributor listings are simply not accessible." },
+      { "h": "What does certification involve?" },
+      { "ul": ["Review of the technical documentation", "Type testing of product samples at an accredited laboratory", "An initial inspection of the factory production control", "Evaluation and issue of the certificate", "Regular surveillance to keep the certificate valid"] },
+      { "p": "The process typically takes 6 to 12 months. Preparation is the factor you can influence most." }
+    ]
+  },
+  {
+    "slug": "drinking-water-hygiene-uba-criteria",
+    "type": "German Standards",
+    "title": "Drinking-water hygiene: understanding the UBA evaluation criteria",
+    "summary": "Why the materials in your product matter as much as its performance, and how the German Environment Agency's criteria affect certification.",
+    "date": "2026-10-28",
+    "readMinutes": 6,
+    "tags": ["hygiene", "UBA", "materials", "TrinkwV"],
+    "body": [
+      { "p": "The German Drinking Water Ordinance (TrinkwV) requires that materials in contact with drinking water do not harm water quality. The German Environment Agency (Umweltbundesamt, UBA) defines binding evaluation criteria for organic materials, metals, and cementitious and enamel materials." },
+      { "h": "What this means for manufacturers" },
+      { "ul": ["Every wetted component counts, including O-rings, lubricants and coatings.", "Metallic materials must appear on the UBA list of approved metallic materials. For brass, lead content is critical.", "Organic materials such as elastomers and plastics need evidence of conformity, usually from the compound supplier."] },
+      { "h": "Practical tip" },
+      { "p": "Before designing your test programme, build a wetted-materials bill of materials and check each item. Choosing approved compounds early avoids months of delay." }
+    ]
+  },
+  {
+    "slug": "certification-preparation-checklist",
+    "type": "Certification Guide",
+    "title": "The 10-document certification preparation guide",
+    "summary": "The documents every certification body will ask for, and how to prepare each one properly.",
+    "date": "2026-10-15",
+    "readMinutes": 8,
+    "tags": ["documents", "checklist", "preparation"],
+    "body": [
+      { "p": "Incomplete or inconsistent documents are the most common cause of delay. These ten document groups form the core of almost every DVGW application." },
+      { "ul": ["Company registration and legal entity details", "Product datasheets for the complete range in scope", "Revision-controlled technical drawings", "Material specifications for all wetted components", "Quality certificates such as ISO 9001", "Existing test reports and approvals", "Manufacturing process documentation and control plan", "Product images and marking", "Inspection and calibration records", "Factory information for the audit"] },
+      { "h": "Consistency is key" },
+      { "p": "The drawings, the samples and the datasheets must describe the same product. Certification bodies check this carefully." }
+    ]
+  },
+  {
+    "slug": "exporting-to-germany-guide",
+    "type": "Export Guide",
+    "title": "Exporting industrial water products from India to Germany",
+    "summary": "Market structure, buyer expectations and the documents you need beyond certification.",
+    "date": "2026-09-30",
+    "readMinutes": 9,
+    "tags": ["export", "Germany", "market access"],
+    "body": [
+      { "p": "Germany is Europe's largest market for water and gas infrastructure products. Its buyers are demanding, loyal and highly standards-driven." },
+      { "h": "Who buys?" },
+      { "ul": ["Municipal utilities (Stadtwerke) and water associations, often through public tenders", "Specialist wholesalers serving installers", "OEMs integrating components into larger systems"] },
+      { "h": "Beyond the certificate" },
+      { "ul": ["German-language technical documentation and installation instructions", "CE marking where EU directives or regulations apply", "Reliable delivery and spare-parts availability", "A local point of contact for technical questions"] },
+      { "p": "Certification opens the door. Service quality and documentation keep it open." }
+    ]
+  },
+  {
+    "slug": "dvgw-vs-ce-marking",
+    "type": "German Standards",
+    "title": "DVGW certification vs. CE marking: what's the difference?",
+    "summary": "Two different systems with different purposes. Many products need both.",
+    "date": "2026-09-12",
+    "readMinutes": 5,
+    "tags": ["CE", "DVGW", "regulation"],
+    "body": [
+      { "p": "CE marking shows conformity with EU legislation such as the Machinery Regulation, the Pressure Equipment Directive or the Measuring Instruments Directive. Where the law requires it, it is mandatory." },
+      { "p": "DVGW certification shows conformity with German technical rules and the relevant European product standards, including hygiene requirements for drinking water. It is market-driven and widely expected." },
+      { "h": "In practice" },
+      { "p": "A pump sold for drinking-water use in Germany will usually need CE marking for machinery safety and evidence of hygiene and suitability, typically a DVGW certificate. A water meter needs MID conformity and benefits from DVGW evidence of material hygiene." }
+    ]
+  },
+  {
+    "slug": "factory-audit-preparation",
+    "type": "Certification Guide",
+    "title": "Preparing your factory for the initial inspection",
+    "summary": "What German auditors look for in factory production control, and how to prepare your team.",
+    "date": "2026-08-26",
+    "readMinutes": 7,
+    "tags": ["audit", "factory", "quality"],
+    "body": [
+      { "p": "The initial inspection confirms that your factory can consistently produce the product that was tested. Auditors focus on control, traceability and records." },
+      { "ul": ["Incoming material inspection and supplier control", "Process control at critical steps", "Calibrated measuring and test equipment", "Final inspection and release testing", "Traceability from raw material to the finished product", "Handling of non-conforming products and complaints"] },
+      { "h": "Run a mock audit" },
+      { "p": "A mock audit two to four weeks before the real one, run against the certification body's checklist, is the most effective preparation." }
+    ]
+  },
+  {
+    "slug": "industry-update-trinkwv-2023",
+    "type": "Industry Update",
+    "title": "Industry update: the revised German Drinking Water Ordinance",
+    "summary": "The 2023 revision of the TrinkwV and what it means for suppliers of drinking-water products.",
+    "date": "2026-08-05",
+    "readMinutes": 4,
+    "tags": ["TrinkwV", "regulation", "update"],
+    "body": [
+      { "p": "Germany's revised Drinking Water Ordinance came into force in 2023, implementing the EU Drinking Water Directive (EU) 2020/2184. It reinforces risk-based approaches and the binding role of the UBA evaluation criteria for materials." },
+      { "p": "At EU level, harmonised requirements for materials in contact with drinking water are being introduced step by step. Manufacturers should monitor the transition periods that apply to their materials and products." },
+      { "p": "ESC tracks these developments and briefs clients on their impact on certifications already held or in progress." }
+    ]
+  },
+  {
+    "slug": "white-paper-german-market-access",
+    "type": "White Paper",
+    "title": "White paper: a structured route to German market access",
+    "summary": "A framework for Indian manufacturers that takes in certification strategy, product-family planning, budget and go-to-market.",
+    "date": "2026-07-18",
+    "readMinutes": 12,
+    "tags": ["strategy", "white paper", "market access"],
+    "body": [
+      { "p": "This white paper sets out a four-phase framework: Assess, Prepare, Certify and Enter. It is built on lessons from Indo-German projects in the utility sector." },
+      { "h": "Phase 1 – Assess" },
+      { "p": "Choose the right products for Germany, map the applicable rules and build a business case." },
+      { "h": "Phase 2 – Prepare" },
+      { "p": "Freeze designs, qualify materials, complete the documentation and pre-test." },
+      { "h": "Phase 3 – Certify" },
+      { "p": "Manage the laboratory testing and factory inspection with a single coordinator." },
+      { "h": "Phase 4 – Enter" },
+      { "p": "Localise documentation, build distributor relationships and prepare for tenders." },
+      { "p": "Request the full PDF version through the contact form." }
+    ]
+  },
+  {
+    "slug": "case-study-brass-ball-valves",
+    "type": "Success Story",
+    "title": "Case study (illustrative): brass ball valves for German building installations",
+    "summary": "How a mid-sized valve manufacturer could prepare a ball-valve range for certification, with a materials issue resolved before testing.",
+    "date": "2026-06-30",
+    "readMinutes": 5,
+    "tags": ["valves", "case study", "brass"],
+    "body": [
+      { "p": "Note: this is a representative scenario that shows a typical project flow. It does not describe a specific client." },
+      { "h": "Situation" },
+      { "p": "A manufacturer of brass ball valves (DN 15 to DN 50) wanted to supply a German wholesaler that required DVGW certification." },
+      { "h": "What the gap analysis found" },
+      { "ul": ["The brass alloy in use was not on the UBA list of approved metallic materials.", "The seat-seal compound had no drinking-water evidence.", "The drawings lacked revision control."] },
+      { "h": "Approach" },
+      { "p": "The manufacturer switched to an approved low-lead brass alloy, qualified a seal compound from an approved supplier and introduced document control. Samples went to the laboratory only after successful in-house pre-tests." },
+      { "h": "Outcome" },
+      { "p": "Testing completed without re-tests, and the factory inspection closed with minor findings only." }
+    ]
+  },
+  {
+    "slug": "case-study-pe-pipes",
+    "type": "Success Story",
+    "title": "Case study (illustrative): PE 100 pressure pipes for water distribution",
+    "summary": "A representative pipe-manufacturer project that used an approved compound to shorten the certification route.",
+    "date": "2026-06-02",
+    "readMinutes": 5,
+    "tags": ["pipes", "PE", "case study"],
+    "body": [
+      { "p": "Note: this is a representative scenario that shows a typical project flow. It does not describe a specific client." },
+      { "h": "Situation" },
+      { "p": "A PE pipe extruder wanted to enter German water distribution projects with PE 100 pipes in the SDR 11 and SDR 17 series." },
+      { "h": "Approach" },
+      { "ul": ["Choose a PE 100 compound with existing approvals", "Select representative dimensions for type testing", "Establish batch traceability and marking", "Prepare factory production control for the initial inspection"] },
+      { "h": "Outcome" },
+      { "p": "Planning the long-term hydrostatic tests early let the project run in parallel with factory preparation rather than one after the other." }
+    ]
+  },
+  {
+    "slug": "common-certification-mistakes",
+    "type": "DVGW Article",
+    "title": "Seven common mistakes that delay DVGW certification",
+    "summary": "Lessons from the field: the avoidable issues that cost manufacturers months.",
+    "date": "2026-05-20",
+    "readMinutes": 6,
+    "tags": ["mistakes", "preparation", "DVGW"],
+    "body": [
+      { "ul": ["Starting testing before the design is frozen", "Ignoring the hygiene evidence for small wetted parts", "Drawings that don't match the samples", "Grouping product variants poorly", "Changing suppliers mid-process", "Underestimating long-term tests", "Treating the factory audit as a formality"] },
+      { "p": "Each of these can be avoided with a structured readiness assessment at the start." }
+    ]
+  },
+  {
+    "slug": "water-meters-mid-and-dvgw",
+    "type": "Certification Guide",
+    "title": "Water meters: navigating MID approval and DVGW requirements",
+    "summary": "How metrological approval and hygiene certification fit together for water-meter manufacturers.",
+    "date": "2026-04-22",
+    "readMinutes": 6,
+    "tags": ["water meters", "MID", "ISO 4064"],
+    "body": [
+      { "p": "Water meters sold in the EU for billing must conform to the Measuring Instruments Directive (2014/32/EU), assessed by a notified body against EN ISO 4064 / OIML R 49." },
+      { "p": "German utilities additionally expect evidence of material hygiene and suitability for the German water supply. Planning both routes together avoids duplicate testing." },
+      { "ul": ["Start the MID type examination and the hygiene evidence in parallel", "Use the same samples where the test programmes allow", "Align the quality-system module with the factory inspection"] }
+    ]
+  }
+]
