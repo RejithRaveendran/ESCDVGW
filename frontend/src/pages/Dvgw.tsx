@@ -35,7 +35,7 @@ export default function Dvgw() {
         crumbs={[{ label: 'DVGW Certification' }]}
         eyebrow="DVGW Certification"
         title="Understanding DVGW certification"
-        text="Everything Indian manufacturers need to know about Germany's most important certification for gas and drinking-water products."
+        text="Everything Indian manufacturers need to know about Germany's most important certification for drinking-water products."
         image="/images/water-treatment.jpg"
         imageAlt="Drinking water treatment plant with filtration basins"
       >
@@ -66,8 +66,8 @@ export default function Dvgw() {
             <div className="mt-6 grid gap-8 md:grid-cols-[1.4fr_1fr]">
               <div className="space-y-4 text-body">
                 <p>
-                  <strong className="text-navy">DVGW (Deutscher Verein des Gas- und Wasserfaches e.V.)</strong> is the German Technical and Scientific Association for Gas and Water. Founded in 1859, it develops the
-                  technical rules, known as DVGW worksheets (Arbeitsblätter), that German gas and water utilities, installers and authorities rely on.
+                  <strong className="text-navy">DVGW (Deutscher Verein des Gas- und Wasserfaches e.V.)</strong> is the German technical and scientific association that sets the rules for the drinking-water sector. Founded in 1859, it develops the
+                  technical rules, known as DVGW worksheets (Arbeitsblätter), that German water utilities, installers and authorities rely on.
                 </p>
                 <p>
                   Products are certified by <strong className="text-navy">DVGW CERT GmbH</strong>, the association's certification body. A certificate confirms that a product meets the applicable DVGW rules and European
@@ -77,8 +77,8 @@ export default function Dvgw() {
               <dl className="card grid grid-cols-2 gap-px overflow-hidden bg-line p-0">
                 {[
                   ['1859', 'Founded'],
-                  ['Gas & water', 'Technical scope'],
-                  ['G & W', 'Worksheet series'],
+                  ['Drinking water', 'Our focus'],
+                  ['W series', 'Water worksheets'],
                   ['DVGW CERT', 'Certification body'],
                 ].map(([v, l]) => (
                   <div key={l} className="bg-white p-5">
@@ -93,7 +93,7 @@ export default function Dvgw() {
           <section id="importance" className="scroll-mt-28">
             <SectionHeading eyebrow="02 · Relevance" title="Why DVGW certification is important" />
             <p className="mt-6 max-w-3xl text-body">
-              German law requires gas and water installations to follow the "generally accepted rules of technology", and the DVGW rules define them. For products in contact with drinking water, the German Drinking Water
+              German law requires water installations to follow the "generally accepted rules of technology", and the DVGW rules define them. For products in contact with drinking water, the German Drinking Water
               Ordinance (TrinkwV) also requires materials to meet the hygiene criteria of the German Environment Agency (UBA). A DVGW certificate is the most widely accepted evidence of both.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -255,7 +255,7 @@ export default function Dvgw() {
             <div className="mt-8 grid gap-5 sm:grid-cols-3">
               {[
                 [Globe2, 'Germany & DACH', 'Access to utilities, wholesalers and OEMs in Germany, Austria and Switzerland.'],
-                [BadgeCheck, 'Tenders', 'Eligibility for public procurement in the gas and water sector.'],
+                [BadgeCheck, 'Tenders', 'Eligibility for public procurement in the water sector.'],
                 [TrendingUp, 'EU expansion', 'A strong technical basis for other European certifications.'],
               ].map(([Icon, t, d]) => (
                 <div key={t as string} className="rounded-card bg-navy p-6 text-white">

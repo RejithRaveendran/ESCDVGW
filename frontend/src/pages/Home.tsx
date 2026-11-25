@@ -7,8 +7,8 @@ import { InquiryForm } from '@/components/InquiryForm';
 
 const WHY_DVGW = [
   { icon: Store, title: 'Access to German buyers', text: 'German utilities, wholesalers and installers expect DVGW-certified products. Without certification, most doors stay closed.' },
-  { icon: FileCheck2, title: 'Tender eligibility', text: 'Public and municipal tenders in the gas and water sector routinely require proof of conformity with DVGW rules.' },
-  { icon: ShieldCheck, title: 'Proof of safety & hygiene', text: 'Certification shows that your product is safe in gas systems and suitable for contact with drinking water under German rules.' },
+  { icon: FileCheck2, title: 'Tender eligibility', text: 'Public and municipal tenders in the water sector routinely require proof of conformity with DVGW rules.' },
+  { icon: ShieldCheck, title: 'Proof of safety & hygiene', text: 'Certification shows that your product is safe, reliable and suitable for contact with drinking water under German rules.' },
   { icon: Globe2, title: 'Recognition across Europe', text: 'The DVGW mark is widely respected in Austria, Switzerland and other EU markets, which supports wider European expansion.' },
 ];
 
@@ -16,7 +16,7 @@ const WHY_ESC = [
   { icon: Handshake, title: 'One accountable partner', text: 'A single point of contact between your factory and the German certification body and laboratories.' },
   { icon: Languages, title: 'Indo-German team', text: 'We work in English, German and Indian languages, and understand both manufacturing cultures.' },
   { icon: Target, title: 'Preparation that prevents re-tests', text: 'Gap analysis and pre-testing before samples leave India save months and laboratory fees.' },
-  { icon: Users, title: 'Utility-sector experience', text: 'Years of work for German energy, gas and water utilities. We know what your buyers expect.' },
+  { icon: Users, title: 'Utility-sector experience', text: 'Years of work for German water utilities. We know what your buyers expect.' },
   { icon: Award, title: 'Certified information security', text: 'ESC is ISO/IEC 27001:2022 certified. Your drawings and test data are protected.' },
   { icon: BadgeCheck, title: 'Transparent progress', text: 'Track milestones, pending actions, audits and documents in the secure ESC client portal.' },
 ];
@@ -78,9 +78,9 @@ export default function Home() {
       <section className="bg-surface section">
         <div className="container-site grid items-start gap-12 lg:grid-cols-2">
           <Reveal>
-            <SectionHeading eyebrow="What is DVGW?" title="Germany's benchmark for gas and drinking-water products" />
+            <SectionHeading eyebrow="What is DVGW?" title="Germany's benchmark for drinking-water products" />
             <p className="mt-5 text-body">
-              DVGW, the German Technical and Scientific Association for Gas and Water, sets the technical rules that German utilities follow. Its certification shows that a product meets these rules and the related
+              DVGW, the German technical and scientific association, sets the technical rules that German water utilities follow. Its certification shows that a product meets these rules and the related
               European standards, including strict hygiene requirements for drinking water.
             </p>
             <p className="mt-4 text-body">For Indian manufacturers, DVGW certification is often the key requirement for selling valves, pipes, fittings, pumps or meters in Germany.</p>
@@ -100,7 +100,7 @@ export default function Home() {
           <div className="grid items-end gap-8 lg:grid-cols-2">
             <SectionHeading eyebrow="Why DVGW certification matters" title="Certification is the entry ticket to the German market" />
             <p className="text-muted lg:pb-1">
-              Germany is Europe's largest market for water and gas infrastructure. Its buyers are standards-driven and loyal, and they rarely look at uncertified products.
+              Germany is Europe's largest market for water infrastructure. Its buyers are standards-driven and loyal, and they rarely look at uncertified products.
             </p>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
@@ -118,7 +118,7 @@ export default function Home() {
       {/* ------------------------------------------------------------ industries */}
       <section className="bg-surface section">
         <div className="container-site">
-          <SectionHeading eyebrow="Industries we serve" title="Built for manufacturers of water and gas infrastructure products" />
+          <SectionHeading eyebrow="Industries we serve" title="Built for manufacturers of water infrastructure products" />
           <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {CATEGORIES.map((c, i) => (
               <Reveal key={c.slug} delay={(i % 3) * 80}>
@@ -211,7 +211,7 @@ export default function Home() {
             <div className="absolute bottom-0 left-0 h-1.5 w-24 bg-red" aria-hidden />
           </Reveal>
           <Reveal delay={100}>
-            <SectionHeading eyebrow="Industry expertise" title="We speak the language of German water and gas utilities" />
+            <SectionHeading eyebrow="Industry expertise" title="We speak the language of German water utilities" />
             <p className="mt-5 text-body">
               Our understanding of DVGW worksheets, EN standards and drinking-water hygiene rules comes from years of work with the German utility sector. We know what certification bodies look for, and what
               German buyers expect after the certificate.

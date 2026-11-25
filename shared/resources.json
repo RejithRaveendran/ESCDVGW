@@ -10,7 +10,7 @@
     "body": [
       { "p": "If you have spoken to a German utility, wholesaler or OEM about supplying valves, pipes, fittings or meters, you have almost certainly been asked: \"Is it DVGW certified?\" This article explains what that question means." },
       { "h": "Who is DVGW?" },
-      { "p": "DVGW (Deutscher Verein des Gas- und Wasserfaches e.V.) is the German Technical and Scientific Association for Gas and Water. Founded in 1859, it writes the technical rules, the DVGW worksheets (Arbeitsblätter), that German gas and water utilities follow. Its certification body, DVGW CERT GmbH, certifies products against these rules and the related European standards." },
+      { "p": "DVGW (Deutscher Verein des Gas- und Wasserfaches e.V.) is the German technical and scientific association that sets the rules for the drinking-water sector. Founded in 1859, it writes the technical rules, the DVGW worksheets (Arbeitsblätter), that German water utilities follow. Its certification body, DVGW CERT GmbH, certifies products against these rules and the related European standards." },
       { "h": "Why does it matter commercially?" },
       { "p": "German utilities and installers rely on the \"generally accepted rules of technology\". A DVGW certificate is the most widely recognised evidence that a product meets them. Without it, many tenders and distributor listings are simply not accessible." },
       { "h": "What does certification involve?" },
@@ -58,7 +58,7 @@
     "readMinutes": 9,
     "tags": ["export", "Germany", "market access"],
     "body": [
-      { "p": "Germany is Europe's largest market for water and gas infrastructure products. Its buyers are demanding, loyal and highly standards-driven." },
+      { "p": "Germany is Europe's largest market for water infrastructure products. Its buyers are demanding, loyal and highly standards-driven." },
       { "h": "Who buys?" },
       { "ul": ["Municipal utilities (Stadtwerke) and water associations, often through public tenders", "Specialist wholesalers serving installers", "OEMs integrating components into larger systems"] },
       { "h": "Beyond the certificate" },

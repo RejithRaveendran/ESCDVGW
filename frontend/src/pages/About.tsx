@@ -18,7 +18,7 @@ export default function About() {
         crumbs={[{ label: 'About' }]}
         eyebrow="About ESC Certification Services"
         title="German standards expertise. Indian manufacturing insight."
-        text="ESC Utility Services Pvt. Ltd. is an Indo-German company serving the energy, gas and water sectors. Our Certification & German Market Access division helps Indian manufacturers earn the trust of German buyers."
+        text="ESC Utility Services Pvt. Ltd. is an Indo-German company. Our Certification & German Market Access division helps Indian water equipment manufacturers earn the trust of German buyers."
         image="/images/technopark.webp"
         imageAlt="Yamuna building at Technopark, Trivandrum, home of the ESC office"
       />
@@ -43,7 +43,7 @@ export default function About() {
             <div className="mt-6 space-y-4 text-body">
               <p>
                 ESC grew out of the need of German utility companies for a dependable partner for data, back-office processes and software. Together with our sister and group companies in Germany, we have supported
-                energy and water utilities for many years, from our office at Technopark in Trivandrum.
+                water utilities for many years, from our office at Technopark in Trivandrum.
               </p>
               <p>That experience in the German utility world is the foundation of our certification services.</p>
             </div>
@@ -63,7 +63,7 @@ export default function About() {
           <Reveal delay={100} className="card p-8 md:p-10">
             <IconTile icon={Eye} />
             <h2 className="mt-5 text-h3">Our vision</h2>
-            <p className="mt-3 text-body">To be the most trusted Indo-German partner for certification and market access in the European water and gas sectors.</p>
+            <p className="mt-3 text-body">To be the most trusted Indo-German partner for certification and market access in the European water sector.</p>
           </Reveal>
         </div>
       </section>
@@ -78,7 +78,7 @@ export default function About() {
             <CheckList className="mt-6" items={['Utility and wholesaler expectations', 'Public tender requirements', 'German technical documentation', 'Surveillance and renewal planning']} />
           </Reveal>
           <Reveal delay={100}>
-            <SectionHeading eyebrow="Industry experience" title="Focused on the water and gas value chain" />
+            <SectionHeading eyebrow="Industry experience" title="Focused on the water value chain" />
             <p className="mt-5 text-body">
               Our team works with the products that German utilities buy every day, from shut-off valves and PE pipes to meters and treatment equipment. We understand both the technical requirements and the
               commercial context.
